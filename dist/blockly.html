@@ -1,0 +1,13 @@
+<!DOCTYPE html><html><head><meta charset=utf-8><meta name=viewport content="width=device-width,initial-scale=1,user-scalable=no"><script type=text/javascript src=./static/js/blockly_compressed.js></script><script type=text/javascript src=./static/js/javascript_compressed.js></script><script type=text/javascript src=./static/js/blocks.js></script><script type=text/javascript src=./static/js/en.js></script><script type=text/javascript src=cordova.js></script><link rel=stylesheet href=./static/css/index.css><title>编程</title><link href=./static/css/blockly.b8cb6ad4fd0b9a32ed1110ba07c5ceb2.css rel=stylesheet></head><body onload=onLoad()><div id=app></div><script>function onLoad() {
+        document.addEventListener("deviceready", function () {
+          StatusBar.hide();
+          document.addEventListener("backbutton", function () {
+            //进入后台
+            navigator.Backbutton.goHome(function() {
+              console.log('go home success');
+            }, function() {
+              console.log('go home fail');
+            });
+          }, false)
+        }, false);
+      }</script><script type=text/javascript src=./static/js/manifest.ead79873ff12f6de6b2f.js></script><script type=text/javascript src=./static/js/vendor.2a7b187425355e6b7c15.js></script><script type=text/javascript src=./static/js/blockly.8e3a45b4c05b69db34f6.js></script></body></html>
