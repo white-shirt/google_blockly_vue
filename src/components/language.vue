@@ -98,7 +98,7 @@ export default {
   padding: 0.5em 1em;
   text-align: left;
   text-overflow: ellipsis;
-  background: rgb(76, 232, 222);
+  background: rgb(255, 206, 0);
   border-top: 1px solid #fff;
   border-bottom: 1px solid #fff;
   box-sizing: border-box;
@@ -117,7 +117,7 @@ export default {
 }
 
 .active {
-  background: rgb(6, 196, 183);
+  background: rgb(255, 170, 0);
 }
 
 .active::before {
